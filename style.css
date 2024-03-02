@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: hsl(330, 100%, 98%);
+     font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+section{
+    margin: 10% auto 5%;
+    background: white;
+    width: 80%;
+    border-radius: 20px;
+}
+article{
+    padding: 3rem;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+h1{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: hsl(24, 5%, 18%);
+  padding-top: 5px;
+}
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    color:hsl(14, 45%, 36%);
+}
+p{
+    font-size: 1.5rem;
+}
+h3{
+    padding-bottom: 1rem;
+    color: hsl(332, 51%, 32%);
+}
+/*Preparation Section*/
+.prep-section{
+    background: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: 2rem 3rem;
+}
+img, h1, h2, .prep-section, p, .ingredient, .instructions{
+    margin-bottom: 25px;
+}
+/*This is for the Lists*/
+li{
+    margin: 0px 25px 0px 15px;
+    padding-bottom: 1rem;
+    
+}
+.prep-section li{
+    color: hsl(332, 51%, 32%);
+}
+.flex-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30rem;
+}
+.value{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold; 
+}
